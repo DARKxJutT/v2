@@ -1,0 +1,40 @@
+body {
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 450px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+.passwordBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.passwordBox input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.passwordBox button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
